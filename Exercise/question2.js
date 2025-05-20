@@ -1,4 +1,3 @@
-/*function signature/sample */
 function validContact(contact) {
 
   if(typeof(contact)!=="string"){
@@ -25,9 +24,3 @@ function validContact(contact) {
     return isTrue;
   }
 }
-
-num = "01819234567";
-
-let isTrue;
-isTrue = validContact(num);
-console.log(isTrue);
